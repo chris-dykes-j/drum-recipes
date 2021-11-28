@@ -1,20 +1,22 @@
 // Gives output. WIP
-function giveResult(groove) {
+function giveResult(...groove) {
 	let doc = document.getElementById("result");
 	doc.innerHTML = "";
 	groove.forEach(note => {
 		let img = document.createElement("img");
 		switch (note) {
 			case(1):
-				img.src = "";
+				img.src = "img/kick.svg";
 				break;
 			case(2):
-				img.src = "";
+				img.src = "img/snare.svg";
 				break;
 			case(3):
-				img.src = "";
+				img.src = "img/snare.svg";
 				break;
 			default:
+				img.src = "img/rest.svg";
+				break;
 		}
 		doc.appendChild(img)
 	});
@@ -90,3 +92,5 @@ function looseGroove() {
 
 //console.log(naiveGroove());
 //console.log(strictGroove());
+
+giveResult(naiveGroove());
