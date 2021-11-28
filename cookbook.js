@@ -1,3 +1,24 @@
+// Gives output. WIP
+function giveResult(groove) {
+	let doc = document.getElementById("result");
+	doc.innerHTML = "";
+	groove.forEach(note => {
+		let img = document.createElement("img");
+		switch (note) {
+			case(1):
+				img.src = "";
+				break;
+			case(2):
+				img.src = "";
+				break;
+			case(3):
+				img.src = "";
+				break;
+			default:
+		}
+		doc.appendChild(img)
+	});
+}
 
 // 1 for kick drum, 2 for ghost notes, 0 for rest.
 // 3 will be accented snare.
@@ -30,14 +51,21 @@ function limitKick(groove, index) {
 		let note = Math.random() < 0.5 ? 0 : 2;
 		groove.push(note);
 	}
+	else {
+		chooseNotes(groove, 1);
+	}
 }
 
 // No ghost before accent, prevent three kick drums in a row.
+// This needs cleaned up.
 function strictGroove() {
 	let groove = [1];
-	chooseNotes(groove, 2);
+	chooseNotes(groove, 1);
+	limitKick(groove, 2);
 	noGhost(groove, 1);
 	groove.push(3);
+	chooseNotes(groove, 2);
+
 	groove.push(1);
 	chooseNotes(groove, 5);
 	noGhost(groove, 1);
@@ -60,5 +88,5 @@ function looseGroove() {
 	return groove;
 }
 
-console.log(naiveGroove());
-console.log(strictGroove());
+//console.log(naiveGroove());
+//console.log(strictGroove());
