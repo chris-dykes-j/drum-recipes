@@ -5,13 +5,13 @@ function giveResult(...groove) {
 	groove.forEach(note => {
 		let img = document.createElement("img");
 		switch (note) {
-			case(1):
+			case 1:
 				img.src = "img/kick.svg";
 				break;
-			case(2):
+			case 2:
 				img.src = "img/snare.svg";
 				break;
-			case(3):
+			case 3:
 				img.src = "img/snare.svg";
 				break;
 			default:
@@ -90,7 +90,6 @@ function looseGroove() {
 	return groove;
 }
 
-//console.log(naiveGroove());
-//console.log(strictGroove());
-
-giveResult(naiveGroove());
+let sikbeat = naiveGroove();
+console.log(sikbeat);
+giveResult(sikbeat);
