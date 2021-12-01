@@ -1,61 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg5"
-   sodipodi:docname="kick.svg"
-   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
-     showgrid="false"
-     inkscape:zoom="0.75187991"
-     inkscape:cx="396.33989"
-     inkscape:cy="527.34485"
-     inkscape:window-width="1551"
-     inkscape:window-height="752"
-     inkscape:window-x="117"
-     inkscape:window-y="169"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs2" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <ellipse
-       style="fill:#000000;fill-rule:evenodd;stroke-width:0.264583"
-       id="path31"
-       ry="22.005907"
-       rx="31.578497"
-       cy="89.996986"
-       cx="97.364532" />
-    <rect
-       style="fill:#000000;stroke-width:0.264583"
-       id="rect77"
-       width="5.7752166"
-       height="130.44592"
-       x="66.01902"
-       y="88.49614" />
-    <path
-       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 71.794235,218.94206 113.49279,148.99889 70.321785,194.45408 Z"
-       id="path574"
-       sodipodi:nodetypes="cccc" />
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg2986" viewBox="0 0 744.09 1052.4" version="1.1">
+  <title id="title3044">sixteenth note</title>
+  <defs id="defs2988">
+    <linearGradient id="linearGradient3127" y2="333.89" gradientUnits="userSpaceOnUse" x2="490.53" gradientTransform="matrix(2.0779 0 0 -2.0779 -656.19 1361.6)" y1="489.14" x1="382.34">
+      <stop id="stop3015-7" stop-opacity=".82639" offset="0"/>
+      <stop id="stop3017-9" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1">
+    <path id="path3-4" stroke-linejoin="round" d="m401.04 196.86c-26.945 0.30383-53.516 9.6369-76.656 23.562-34.633 18.379-71.629 47.097-72.875 89.906-0.97502 162.4-4.7926 310.18-3.2812 459 1.0901 28.931-8.3491 73.522 19.344 86.156 13.085 0.80105 16.383-15.074 22.406-23.562 22.201-52.26 69.426-86.518 102.41-131.22 29.045-33.492 45.55-79.421 37.719-123.72 0.17095-16.843-17.25-62.966-30.469-28.969 2.2249 25.329 0.38475 51.222-8.8438 75.188-8.2742 34.787-33.455 60.82-58.188 84.938-23.793 26.61-60.195 6.2352-44.938-26.688 22.875-54.372 72.303-89.639 106.03-136.47 32.739-38.251 37.563-106.27 29.781-141.53-7.7816-35.264-28.783-28.623-25.656-1.8438 4.9176 33.71-5.8281 67.314-19.625 97.656-15.166 26.86-37.558 50.473-62.656 68.094-35.628 13.777-32.067-31.162-32.031-60.469-0.99871-13.404-1.4523-26.843-1.6562-40.312 0.35-22.327-0.29423-47.22 1.0938-66.969 1.388-19.748 7.7188-34.867 26.875-28.812 39.201 14.915 85.221 10.405 121.62-10.344 37.084-16.471 67.22-55.32 65-97.031-0.69789-35.974-35.165-60.27-68.469-63.688-8.9535-2.0687-17.956-2.9763-26.938-2.875z" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-width="5.9241" fill="url(#linearGradient3127)"/>
   </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Sixteenth Note (Stem Facing Down)</dc:title>
+        <dc:date>2010-10-28T17:11:01</dc:date>
+        <dc:description>a single stem facing down sixteenth note</dc:description>
+        <dc:source>http://openclipart.org/detail/92989/sixteenth-note-(stem-facing-down)-by-jaschon</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jaschon</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>black and white</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>music</rdf:li>
+            <rdf:li>music note</rdf:li>
+            <rdf:li>musical notation</rdf:li>
+            <rdf:li>semiquaver</rdf:li>
+            <rdf:li>sixteenth</rdf:li>
+            <rdf:li>sound</rdf:li>
+            <rdf:li>staff</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
 </svg>
