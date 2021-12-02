@@ -1,8 +1,7 @@
 // Gives output. WIP
 function giveResult(groove) {
 	let doc = document.getElementById("result");
-	//let img = document.createElement("img");
-	
+	doc.innerHTML("");
 	groove.forEach(note => {
 		let img = document.createElement("img");
 		switch (note) {
