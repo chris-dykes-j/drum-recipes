@@ -1,26 +1,31 @@
 // Gives output. WIP
-function giveResult(...groove) {
+function giveResult(groove) {
 	let doc = document.getElementById("result");
-	doc.innerHTML = "";
+	//let img = document.createElement("img");
+	
 	groove.forEach(note => {
 		let img = document.createElement("img");
 		switch (note) {
 			case 1:
-				img.src = "img/kick.svg";
+				img.setAttribute("src", "img/kick.svg");
 				break;
 			case 2:
-				img.src = "img/snare.svg";
+				img.setAttribute("src", "img/snare.svg");
 				break;
 			case 3:
-				img.src = "img/snare.svg";
+				img.setAttribute("src", "img/snare.svg");
 				break;
-			default:
-				img.src = "img/rest.svg";
+			case 0:
+				img.setAttribute("src", "img/rest.svg");
 				break;
 		}
-		doc.appendChild(img)
+		doc.appendChild(img);
 	});
 }
+
+let sikbeat = naiveGroove();
+console.log(sikbeat);
+giveResult(sikbeat);
 
 // 1 for kick drum, 2 for ghost notes, 0 for rest.
 // 3 will be accented snare.
@@ -89,7 +94,3 @@ function looseGroove() {
 	chooseNotes(groove, 3);
 	return groove;
 }
-
-let sikbeat = naiveGroove();
-console.log(sikbeat);
-giveResult(sikbeat);
